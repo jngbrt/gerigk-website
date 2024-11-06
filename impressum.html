@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html  lang="en">
 <head>
   
   <meta charset="UTF-8">
@@ -15,20 +15,39 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=mFLqnZ"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=mFLqnZ" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=gzQgZK"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=gzQgZK" type="text/css">
 
   
-  
+  <!-- Include jQuery first -->
+<script type="text/plain" data-src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Bootstrap JavaScript after jQuery -->
+<script type="text/plain" data-src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/plain" data-src="https://cdnjs.cloudflare.com/ajax/libs/core-js/3.19.3/minified.min.js"></script>
+
   
 </head>
 <body>
-  
+  <script type="text/plain">
+    $(document).ready(function() {
+        // Manually initialize any tab elements
+        var triggerTabList = [].slice.call(document.querySelectorAll('bootstrap-accordion_8'))
+        triggerTabList.forEach(function (triggerEl) {
+            var tabTrigger = new bootstrap.Tab(triggerEl)
+
+            triggerEl.addEventListener('click', function (event) {
+                event.preventDefault()
+                tabTrigger.show()
+            })
+        })
+    });
+</script>
+
   <section data-bs-version="5.1" class="menu menu1 advisorym5 cid-utbJppVlWT" once="menu" id="menu1-v">
 
     
@@ -38,7 +57,7 @@
             <div class="navbar-brand d-flex d-lg-none">
                 <span class="navbar-logo">
                     <a href="file:///Users/jan/Library/Application%20Support/Mobirise.com/Mobirise/jageb12_0040googlemail_002ecom/addons/advisorym5/components/index.html">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/logo-60x114.webp">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/logo-60x114.png">
                     </a>
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption display-4" href="file:///Users/jan/Library/Application%20Support/Mobirise.com/Mobirise/jageb12_0040googlemail_002ecom/addons/advisorym5/components/index.html">Gerigk &amp; Partner mbB 
@@ -56,7 +75,7 @@
                 <div class="navbar-brand d-none d-lg-flex">
                 <span class="navbar-logo">
                     <a href="file:///Users/jan/Library/Application%20Support/Mobirise.com/Mobirise/jageb12_0040googlemail_002ecom/addons/advisorym5/components/index.html">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/logo-60x114.webp">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/logo-60x114.png">
                     </a>
                 </span>
                     <span class="navbar-caption-wrap"><a class="navbar-caption display-4" href="file:///Users/jan/Library/Application%20Support/Mobirise.com/Mobirise/jageb12_0040googlemail_002ecom/addons/advisorym5/components/index.html">Gerigk &amp; Partner mbB&nbsp;</a></span>
@@ -327,7 +346,7 @@
             </div>
             <div class="col-12 col-lg-2 card">
                 <div class="logo-wrap">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/logo-60x114.webp">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/logo-60x114.png">
                 </div>
                 <h4 class="mbr-section-title mbr-fonts-style display-4">Gerigk &amp; Partner mbB&nbsp;</h4>
             </div>
@@ -365,7 +384,6 @@
   
   
 <input name="cookieData" type="hidden" data-cookie-cookiesalerttype="2" data-cookie-customdialogselector="null" data-cookie-colortext="#424a4d" data-cookie-colorbg="rgb(255, 255, 255)" data-cookie-opacityoverlay="0" data-cookie-bgopacity="100" data-cookie-textbutton="Ablehnen" data-cookie-rejecttext="Akzeptieren" data-cookie-colorbutton="#1d1d1d" data-cookie-rejectcolor="#ffffff" data-cookie-colorlink="#424a4d" data-cookie-underlinelink="true" data-cookie-text="Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Wenn Sie nicht damit einverstanden sind, klicken Sie auf " ablehnen".="" mehr="" informationen="" finden="" sie="" in="" den="" <a="" href="datenschutzrichtlinie.html">Datenschutzrichtlinien."&gt;
-    <input name="animation" type="hidden">
   <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};if(e.getAttribute("data-aspectratio")){e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;}e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
 </body>
 </html>
